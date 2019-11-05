@@ -10,4 +10,9 @@ public class AppController {
     public String loginUser(){
         return "User kullanıcı girişi başarılı";
     }
+
+    @RequestMapping("/admin")
+    public String loginAdmin(){
+        return "Admin kullanıcı girişi başarılı";
+    }
 }
